@@ -41,6 +41,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     // MARK: Actions
     
+    @IBAction func selectImageFromLibrary(sender: UITapGestureRecognizer) {
+        
+    }
+    
     @IBAction func setDefaultLabelText(sender: UIButton) {
         mealNameLabel.text = "Default Text"
     }
